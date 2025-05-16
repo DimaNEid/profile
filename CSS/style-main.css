@@ -1,0 +1,79 @@
+@import url("../CSS/style-grid.css");
+@import url("../CSS/style-info.css");
+@import url("../CSS/header.css");
+@import url("../CSS/footer.css");
+/**/
+
+#about-me {
+    background: linear-gradient(to right, #56CCF2 30%, #2F80ED 70%);
+    color: #020202;
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 75%;
+    border-radius: 5px;
+    margin: 30px auto;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 145px;
+    height: 150px;
+
+}
+
+.info{
+    margin-left: 45px;
+}
+
+.info h1 {
+    margin-bottom:20px;
+    font-size: 28px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.technologies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.technologies img {
+    width: 35px;
+    height: 35px;
+    margin-right:10px;
+    padding: 8px;
+}
+
+@media(min-width:300px)and (max-width: 768px) {
+    #about-me {
+        flex-direction: column;
+        text-align: center;
+        height: 330px;
+    }
+
+    .technologies {
+        margin-top: 5px;
+        flex-direction: row;
+    }
+
+    .technologies img {
+        margin: 0 5px;
+        width: 30px;
+        height: 30px;
+
+    }
+}

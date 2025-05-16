@@ -1,0 +1,159 @@
+@import url("../CSS/style-grid.css");
+@import url("../CSS/header.css");
+/**/
+
+
+.certifications-section {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.title1{
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+.title1 h2 {
+    font-size: 22px;
+    color: #333;
+}
+.title1 p {
+    font-size: 16px;
+    color: #666;
+}
+.certifications-list {
+    list-style: none;
+    padding: 0;
+}
+.certifications-list p {
+    border-bottom: 1px solid #eee;
+padding: 8px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .certifications-section {
+        padding: 15px;
+        max-width: 90%;
+    }
+    .certifications-section h2,
+    .certifications-section p,
+    .certifications-list li {
+        font-size: 14px;
+    }
+}
+
+
+/**/
+
+
+.education-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.education-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.education-section p {
+    font-size: 16px;
+    color: #666;
+}
+
+.education-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.education-item {
+    background-color: #f4f4f4;
+    border: 0.5px solid #ccc;
+    padding: 20px;
+    width: 44%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.education-item h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.education-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .education-grid {
+        flex-direction: column;
+    }
+    .education-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .education-section {
+        margin-right: 35px ;
+    }
+}
+
+/**/
+
+
+.about-me-section {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.about-me-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.about-me-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    font-size: 30px;
+}
+
+.social-icons a {
+    color: #0e76a8;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #055680;
+}
+
+@media (max-width: 900px) {
+    .about-me-section {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+.site-footer{
+    margin-top: 70px;
+}
+
